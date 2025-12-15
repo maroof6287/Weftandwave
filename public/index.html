@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="fc:miniapp" content="{&quot;version&quot;:&quot;1&quot;,&quot;imageUrl&quot;:&quot;https://example.com/assets/embed-3x2.png&quot;,&quot;button&quot;:{&quot;title&quot;:&quot;Open Weft&quot;,&quot;action&quot;:{&quot;type&quot;:&quot;launch_frame&quot;,&quot;url&quot;:&quot;https://example.com/&quot;}},&quot;splashImageUrl&quot;:&quot;https://example.com/assets/splash.png&quot;,&quot;splashBackgroundColor&quot;:&quot;#020617&quot;}">
+<meta name="fc:frame" content="{&quot;version&quot;:&quot;1&quot;,&quot;imageUrl&quot;:&quot;https://example.com/assets/embed-3x2.png&quot;,&quot;button&quot;:{&quot;title&quot;:&quot;Open Weft&quot;,&quot;action&quot;:{&quot;type&quot;:&quot;launch_frame&quot;,&quot;url&quot;:&quot;https://example.com/&quot;}},&quot;splashImageUrl&quot;:&quot;https://example.com/assets/splash.png&quot;,&quot;splashBackgroundColor&quot;:&quot;#020617&quot;}">
+
+<meta property="og:title" content="Weft & Weave">
+<meta property="og:description" content="Dress by weather, not numbers.">
+<meta property="og:image" content="https://example.com/assets/hero.png">
+
+<title>Weft & Weave</title>
+<style>
+body {
+  margin:0;
+  font-family: system-ui, sans-serif;
+  background:#020617;
+  color:white;
+}
+#app {
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: repeating-linear-gradient(45deg,#475569,#475569 10px,#334155 10px,#334155 20px);
+}
+#tip {
+  position:absolute;
+  top:12px;
+  right:12px;
+  background:#ec4899;
+  padding:8px 12px;
+  border-radius:999px;
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <div>
+    <h1>Weft & Weave</h1>
+    <p>Feels like flannel today.</p>
+  </div>
+</div>
+<div id="tip">❤ Tip</div>
+<script type="module" src="./script.js"></script>
+</body>
+</html>
