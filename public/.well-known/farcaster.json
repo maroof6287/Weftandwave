@@ -1,0 +1,25 @@
+{
+  "accountAssociation": {
+      "header": "TODO_REPLACE_BASE64_HEADER",
+      "payload": "TODO_REPLACE_BASE64_PAYLOAD",
+      "signature": "TODO_REPLACE_BASE64_SIGNATURE"
+  },
+  "miniapp": {
+      "version": "1",
+      "name": "Weft",
+      "homeUrl": "https://example.com/",
+      "iconUrl": "https://example.com/assets/icon.png",
+      "splashImageUrl": "https://example.com/assets/splash.png",
+      "splashBackgroundColor": "#020617",
+      "subtitle": "Dress by Weather",
+      "description": "A tactile weather app that shows fabric moods instead of icons.",
+      "primaryCategory": "utility",
+      "tags": ["fun","simple","utility"],
+      "heroImageUrl": "https://example.com/assets/hero.png",
+      "ogTitle": "Weft",
+      "ogDescription": "A tactile weather app that shows fabric moods instead of icons.",
+      "ogImageUrl": "https://example.com/assets/hero.png",
+      "screenshotUrls": ["https://example.com/assets/hero.png"],
+      "noindex": true
+  }
+}
